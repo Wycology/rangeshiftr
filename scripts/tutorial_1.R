@@ -7,7 +7,7 @@ library(viridis)
 library(grid)
 library(gridExtra)
 
-# relative path from work
+# relative path from wo
 dirpath = "Tutorial_01/"
 
 dir.create(paste0(dirpath,'Inputs'), showWarnings = TRUE)
