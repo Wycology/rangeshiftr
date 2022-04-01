@@ -1,3 +1,4 @@
+# Loading the libraries
 
 library(RangeShiftR)
 library(raster)
