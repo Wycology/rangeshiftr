@@ -19,7 +19,7 @@ UKmap <- raster(paste0(dirpath, "Inputs/UKmap_1km.txt"))
 SpDist <- raster(paste0(dirpath, "Inputs/Species_Distribution_10km.txt"))
 values(SpDist)[values(SpDist) < 1] <- NA
 
-# plot land cover map and highlight cells with initial species distribution - option 1:
+# lot land cover map and highlight cells with initial species distribution - option 1:
 plot(UKmap, col=brewer.pal(n = 6, name = "Spectral"), axes=F)
 plot(rasterToPolygons(SpDist, dissolve=F), add=T)
 
