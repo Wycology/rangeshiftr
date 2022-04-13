@@ -33,5 +33,5 @@ rat[["landcover"]] <- c("woodland", "arable", "improved grassland", "semi-natura
 levels(UKmap.f) <- rat
 
 custom.pal <- c("#1A9850", "#91CF60", "#D9EF8B", "#FEE08B", "#D8B365", "#777777")
-levelplot(UKmap.f, margin = F, scales = list(draw=FALSE), col.regions=custom.pal)  +
+levelplot(UKmap.f, margin = F, scales = list(draw = FALSE), col.regions = custom.pal) +
   layer(sp.polygons(rasterToPolygons(SpDist, dissolve=F), fill=NA, col='red'))
