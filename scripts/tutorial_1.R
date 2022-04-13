@@ -15,6 +15,10 @@ dir.create(paste0(dirpath,'Inputs'), showWarnings = TRUE)
 dir.create(paste0(dirpath,"Outputs"), showWarnings = TRUE)
 dir.create(paste0(dirpath,"Output_Maps"), showWarnings = TRUE)
 
+# For the tutorials see https://rangeshifter.github.io/RangeshiftR-tutorials/index.html
+# Here is the path to data https://rangeshifter.github.io/RangeshiftR-tutorials/files/Tutorial1_Inputs.zip
+# The data is to be downloaded and stored in Inputs folder
+
 UKmap <- raster(paste0(dirpath, "Inputs/UKmap_1km.txt"))
 SpDist <- raster(paste0(dirpath, "Inputs/Species_Distribution_10km.txt"))
 values(SpDist)[values(SpDist) < 1] <- NA
