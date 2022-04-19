@@ -31,6 +31,7 @@ plot(rasterToPolygons(SpDist, dissolve = F), add = T)
 # lot land cover map and highlight cells with initial species distribution - option 2 with categorical legend:
 
 UKmap.f <- as.factor(UKmap)
+
 # add the land cover classes to the raster attributes table (RAT)
 
 rat <- levels(UKmap.f)[[1]]
