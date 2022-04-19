@@ -36,6 +36,7 @@ UKmap.f <- as.factor(UKmap)
 rat <- levels(UKmap.f)[[1]]
 
 rat[["landcover"]] <- c("woodland", "arable", "improved grassland", "semi-natural grassland", "heath and bog", "other")
+
 levels(UKmap.f) <- rat
 
 custom.pal <- c("#1A9850", "#91CF60", "#D9EF8B", "#FEE08B", "#D8B365", "#777777")
