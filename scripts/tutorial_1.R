@@ -34,6 +34,7 @@ UKmap.f <- as.factor(UKmap)
 # add the land cover classes to the raster attributes table (RAT)
 
 rat <- levels(UKmap.f)[[1]]
+
 rat[["landcover"]] <- c("woodland", "arable", "improved grassland", "semi-natural grassland", "heath and bog", "other")
 levels(UKmap.f) <- rat
 
