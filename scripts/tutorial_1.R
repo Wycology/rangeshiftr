@@ -9,7 +9,7 @@ library(viridis)
 library(grid)
 library(gridExtra)
 
-dirpath = "Tutorial_01/" # Setting th
+dirpath = "Tutorial_01/" # Setting 
 
 dir.create(paste0(dirpath,'Inputs'), showWarnings = TRUE)
 dir.create(paste0(dirpath,"Outputs"), showWarnings = TRUE)
