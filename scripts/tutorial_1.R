@@ -1,8 +1,8 @@
 # Loading the libraries
 
 library(RangeShiftR)    # version 1.0.3
-library(raster)
-library(RColorBrewer)
+library(raster)         # version 3.5.15
+library(RColorBrewer)   # version 
 library(rasterVis)
 library(latticeExtra)
 library(viridis)
