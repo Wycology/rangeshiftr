@@ -3,7 +3,7 @@
 library(RangeShiftR)    # version 1.0.3
 library(raster)         # version 3.5.15
 library(RColorBrewer)   # version 
-library(rasterVis)
+library(rasterVis)      # version 0.51.2
 library(latticeExtra)
 library(viridis)
 library(grid)
