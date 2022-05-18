@@ -1,6 +1,6 @@
 # Loading the libraries
 
-library(RangeShiftR)
+library(RangeShiftR)    # version 1.0.3
 library(raster)
 library(RColorBrewer)
 library(rasterVis)
