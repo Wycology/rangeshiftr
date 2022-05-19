@@ -1,13 +1,13 @@
-# Loading the libraries
+# Loading the libraries for the task
 
 library(RangeShiftR)    # version 1.0.3
 library(raster)         # version 3.5.15
 library(RColorBrewer)   # version 1.1.3
 library(rasterVis)      # version 0.51.2
 library(latticeExtra)   # version 0.6.29
-library(viridis)
-library(grid)
-library(gridExtra)
+library(viridis)        # version 0.6.2
+library(grid)           # version 4.2.0
+library(gridExtra)      # version 2.3
 
 dirpath = "Tutorial_01/" 
 
