@@ -12,7 +12,7 @@ library(gridExtra)      # version 2.3
 dirpath = "Tutorial_01/" 
 
 dir.create(paste0(dirpath,'Inputs'), showWarnings = TRUE) # Creating inputs folder
-dir.create(paste0(dirpath,"Outputs"), showWarnings = TRUE) # 
+dir.create(paste0(dirpath,"Outputs"), showWarnings = TRUE) # Creating outputs folder
 dir.create(paste0(dirpath,"Output_Maps"), showWarnings = TRUE)
 
 # For the tutorials see https://rangeshifter.github.io/RangeshiftR-tutorials/index.html
