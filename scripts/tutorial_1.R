@@ -1,4 +1,4 @@
-# Loading the libraries for the task
+# Loading the libraries for the task of mapping range shifts
 
 library(RangeShiftR)    # version 1.0.3
 library(raster)         # version 3.5.15
