@@ -13,7 +13,7 @@ dirpath = "Tutorial_01/"
 
 dir.create(paste0(dirpath,'Inputs'), showWarnings = TRUE) # Creating inputs folder
 dir.create(paste0(dirpath,"Outputs"), showWarnings = TRUE) # Creating outputs folder
-dir.create(paste0(dirpath,"Output_Maps"), showWarnings = TRUE)
+dir.create(paste0(dirpath,"Output_Maps"), showWarnings = TRUE) # Creating folder for created maps
 
 # For the tutorials see https://rangeshifter.github.io/RangeshiftR-tutorials/index.html
 # Here is the path to original data https://rangeshifter.github.io/RangeshiftR-tutorials/files/Tutorial1_Inputs.zip
