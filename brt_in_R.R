@@ -54,6 +54,8 @@ sqrt(mean((test_target - predictions)^2))
 
 cor(test_target, predictions)^2
 
+# Cross-validation
+
 set.seed(1)
 
 ctrl <- trainControl(method = "cv", number = 10)
