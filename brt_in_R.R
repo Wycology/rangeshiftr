@@ -9,10 +9,11 @@ library(gbm) # Library for building the model
 model <- gbm(medv ~., data = Boston)
 model
 
+# Raondom forest
 library(caret)
 set.seed(1)
 
-model <- train(medv ~., data = Boston, method = "gbm", verbose = FALSE)
+model <- train(medv ~., data = Boston, method = "rf", verbose = FALSE)
 
 model
 
