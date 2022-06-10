@@ -9,7 +9,7 @@ library(gbm) # Library for building the model
 model <- gbm(medv ~., data = Boston)
 model
 
-# Raondom forest
+# Random forest
 library(caret)
 set.seed(1)
 
@@ -24,6 +24,9 @@ set.seed(1)
 model2 <- train(medv ~., data = Boston, method = "gbm", 
                 preProcess = c("center", "scale"), verbose = FALSE)
 model2
+
+#  Preprocessing with caret
+# Splitting the dataset
 
 set.seed(1)
 
