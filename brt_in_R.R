@@ -80,7 +80,9 @@ sqrt(mean((test_target - predictions)^2))
 
 # R2
 
-cor(test_target, predictions) ^2
+cor(test_target, predictions)^2
+
+# Tuning hyper-parameters
 
 set.seed(1)
 
