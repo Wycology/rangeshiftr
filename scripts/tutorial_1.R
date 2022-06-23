@@ -33,7 +33,7 @@ plot(rasterToPolygons(SpDist, dissolve = F), add = T)
 
 UKmap.f <- as.factor(UKmap)
 
-# Add the land cover classes to the raster attributes ta
+# Add the land cover classes to the raster attributes
 
 rat <- levels(UKmap.f)[[1]]
 
