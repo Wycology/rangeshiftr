@@ -16,7 +16,6 @@ set.seed(1)
 model <- train(medv ~., data = Boston, method = "rf", verbose = FALSE)
 
 
-
 plot(model)
 
 set.seed(1)
