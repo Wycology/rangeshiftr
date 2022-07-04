@@ -1,10 +1,11 @@
 # Created sometimes back
 # Last updated 4th July 2022
+
 # Boosted regression trees in R
 
 library(MASS) # Library with the data to work on
 data("Boston")
-library(gbm) # Library for building the model
+library(gbm) # Library for building the boosted regression model
 
 # Boosted regression tree
 
