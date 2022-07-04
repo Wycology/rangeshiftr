@@ -6,6 +6,7 @@
 library(MASS) # Library with the data to work on
 data("Boston") # Loading the dataset
 library(gbm) # Library for building the boosted regression model
+library(caret)
 
 # Boosted regression tree
 
@@ -13,7 +14,6 @@ model <- gbm(medv ~., data = Boston) # Building the model
 
 # Random forest 
 
-library(caret)
 set.seed(1)
 
 model <- train(medv ~., data = Boston, method = "rf", verbose = FALSE)
