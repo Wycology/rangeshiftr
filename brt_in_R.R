@@ -8,7 +8,7 @@ library(gbm) # Library for building the model
 
 model <- gbm(medv ~., data = Boston)
 
-# Random forest
+# Random forest 
 library(caret)
 set.seed(1)
 
