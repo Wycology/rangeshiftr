@@ -47,7 +47,7 @@ test_target <- subset(testing, select = medv)[,1]
 
 predictions <- predict(model3, newdata = test_features)
 
-# RMSE That is Roome Means Square Error
+# RMSE That is Room Means Square Error
 
 sqrt(mean((test_target - predictions)^2))
 
