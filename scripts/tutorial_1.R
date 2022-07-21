@@ -20,7 +20,7 @@ dir.create(paste0(dirpath,"Output_Maps"), showWarnings = TRUE) # Creating folder
 # The data is to be downloaded and stored in the Inputs folder.
 
 UKmap <- raster(paste0(dirpath, "Inputs/UKmap_1km.txt")) # Loading text data 
-SpDist <- raster(paste0(dirpath, "Inputs/Species_Distribution_10km.txt")) # Loading data
+SpDist <- raster(paste0(dirpath, "Inputs/Species_Distribution_10km.txt")) # Loading text data
 values(SpDist)[values(SpDist) < 1] <- NA
 
 # Plot the land cover map and highlight all cells with initial species distribution - option 1:
