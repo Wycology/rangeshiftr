@@ -3,7 +3,7 @@
 
 # Boosted regression trees in R
 
-library(MASS) # Library with the data to 
+library(MASS) # Library with the data to
 data("Boston") # Loading the dataset
 library(gbm) # Library for building the boosted regression model
 library(caret)
