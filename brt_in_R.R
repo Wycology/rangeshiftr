@@ -82,7 +82,7 @@ sqrt(mean((test_target - predictions)^2))
 
 cor(test_target, predictions)^2
 
-# Tuning hyper-parameters for the mod
+# Tuning hyper-parameters for the model
 
 set.seed(1)
 
