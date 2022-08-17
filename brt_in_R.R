@@ -39,7 +39,7 @@ set.seed(1)
 model3 <- train(medv ~., data = training, method = "gbm", 
                 preProcess = c("center", "scale"), verbose = FALSE)
 
-model3 # odel output
+model3 # Todel output
 
 test_features <- subset(testing, select = -c(medv))
 test_target <- subset(testing, select = medv)[,1]
