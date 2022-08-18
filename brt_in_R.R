@@ -46,7 +46,7 @@ test_target <- subset(testing, select = medv)[,1]
 
 predictions <- predict(model3, newdata = test_features)
 
-# RMSE Root Means Square Error
+# RMSE Root Mean Square Error
 
 sqrt(mean((test_target - predictions)^2))
 
