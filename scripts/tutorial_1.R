@@ -23,7 +23,7 @@ UKmap <- raster(paste0(dirpath, "Inputs/UKmap_1km.txt")) # Loading text data
 SpDist <- raster(paste0(dirpath, "Inputs/Species_Distribution_10km.txt")) # Loading text data
 values(SpDist)[values(SpDist) < 1] <- NA
 
-# Plot land c map and highlight all cells with initial species distribution - option 1:
+# Plot land  map and highlight all cells with initial species distribution - option 1:
 
 plot(UKmap, col = brewer.pal(n = 6, name = "Spectral"), axes = F)
 
