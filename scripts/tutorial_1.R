@@ -29,7 +29,7 @@ plot(UKmap, col = brewer.pal(n = 6, name = "Spectral"), axes = F)
 
 plot(rasterToPolygons(SpDist, dissolve = F), add = T)
 
-# Plot land cover map and highlight thcells with initial species distribution - option 2 with categorical legend:
+# Plot land cover map and highlight thecells with initial species distribution - option 2 with categorical legend:
 
 UKmap.f <- as.factor(UKmap)
 
