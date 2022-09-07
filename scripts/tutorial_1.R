@@ -1,7 +1,7 @@
 # Loading the libraries for the task of mapping range shifts.
 
 library(RangeShiftR)    # version 1.0.3
-library(raster)         # version 3.5.2
+library(raster)         # version 3.5.29
 library(RColorBrewer)   # version 1.1.3
 library(rasterVis)      # version 0.51.2
 library(latticeExtra)   # version 0.6.30
