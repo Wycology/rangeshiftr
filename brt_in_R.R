@@ -63,7 +63,8 @@ ctrl <- trainControl(method = "cv", number = 10)
 set.seed(1)
 
 model4 <- train(medv ~., data = training, method = "gbm", 
-                preProcess = c("center", "scale"), trControl = ctrl, verbose = FALSE)
+                preProcess = c("center", "scale"), 
+                trControl = ctrl, verbose = FALSE)
 
 model4
 plot(model4)
