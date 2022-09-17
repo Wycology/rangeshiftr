@@ -23,7 +23,7 @@ set.seed(1)
 
 model2 <- train(medv ~., data = Boston, method = "gbm", 
                 preProcess = c("center", "scale"), verbose = FALSE)
-model2 # Printing out the model
+model2 # Prints out the model
 
 # Pre-processing with caret
 # Splitting the data-set
