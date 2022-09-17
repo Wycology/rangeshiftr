@@ -25,12 +25,12 @@ model2 <- train(medv ~., data = Boston, method = "gbm",
                 preProcess = c("center", "scale"), verbose = FALSE)
 model2 # Prints out the model
 
-# Pre-processing with caret
+# Pre-processing with caret package
 # Splitting the data-set
 
 set.seed(1)
 
-in_training <- createDataPartition(Boston$medv, p = .80, list = FALSE)
+in_training <- createDataPartition(Boston$medv, p = .8, list = FALSE)
 training <- Boston[in_training,]
 testing <- Boston[-in_training, ]
 
@@ -39,7 +39,7 @@ set.seed(1)
 model3 <- train(medv ~., data = training, method = "gbm", 
                 preProcess = c("center", "scale"), verbose = FALSE)
 
-model3 # The model output pri
+model3 # The model output 
 
 test_features <- subset(testing, select = -c(medv))
 test_target <- subset(testing, select = medv)[,1]
