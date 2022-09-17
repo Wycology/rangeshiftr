@@ -68,7 +68,6 @@ model4 <- train(medv ~., data = training, method = "gbm",
 model4
 plot(model4)
 
-
 test_features <- subset(testing, select = -c(medv))
 test_target <- subset(testing, select = medv)[, 1]
 
