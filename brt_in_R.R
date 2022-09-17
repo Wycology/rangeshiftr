@@ -10,7 +10,7 @@ library(caret)
 
 # Boosted regression tree
 
-model <- gbm(medv ~., data = Boston) # Building the model
+model <- gbm(medv ~., data = Boston) # Buildin the model
 
 # Random forest 
 
