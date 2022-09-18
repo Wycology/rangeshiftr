@@ -1,4 +1,4 @@
-# Load libraries for range shift m.
+# Load libraries for range shift .
 
 library(RangeShiftR)    # version 1.0.3
 library(raster)         # version 3.5.29
