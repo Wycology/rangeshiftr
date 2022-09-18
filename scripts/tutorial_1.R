@@ -11,7 +11,7 @@ library(gridExtra)      # version 2.3
 
 dirpath = "Tutorial_01/" 
 
-dir.create(paste0(dirpath,'Inputs'), showWarnings = TRUE) # Creating folder for input files
+dir.create(paste0(dirpath,'Inputs'), showWarnings = TRUE) # Creating folder foinput files
 dir.create(paste0(dirpath,"Outputs"), showWarnings = TRUE) # Creating folder for output files
 dir.create(paste0(dirpath,"Output_Maps"), showWarnings = TRUE) # Creating folder for created maps
 
